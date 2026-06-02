@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+/* HEADER */
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.login-btn {
+  background: #ffcc00;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: black !important;
+}
+
+.banner {
+  background: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  text-align: center;
+  color: white;
+  background: #00000077;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-banner {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ffcc00;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.prato {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #0002;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  color: white;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 250px;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.login-body {
+  background: url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe')
+      no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #ffffffcc;
+  backdrop-filter: blur(5px);
+  padding: 40px;
+  border-radius: 12px;
+  width: 330px;
+  box-shadow: 0 0 15px #0003;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#loginBtn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-links {
+  margin-top: 15px;
+}
+
+.login-links a {
+  color: #111;
+  font-weight: bold;
+}
+
+.voltar {
+  display: block;
+  margin-top: 10px;
+  color: #444;
+  font-size: 14px;
+}
+
+
